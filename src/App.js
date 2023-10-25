@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Nav from './components/Nav';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-zinc-800'>
+    <Nav/>
+    
+    <div class="z-1 relative lg:pt-12">
+      
+     <h1>ted</h1>
+
+
     </div>
+
+<body>
+
+<main class="bg-grey-dark pt-10 pb-4 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-4 subtle-radial-gradient-background">
+
+    </main>
+</body>
+   
+</div>
+    
   );
 }
 
